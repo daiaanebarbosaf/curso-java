@@ -1,2 +1,2 @@
 # curso-java-exercicios
- Meus primeiros passos na liguagem.
+ Meus primeiros passos na linguagem.
