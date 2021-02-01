@@ -1,2 +1,2 @@
 # Explicando o Exercício
- Neste exercício exemplifiquei como criar pastas e clases.
+ Neste exercício exemplifiquei como criar pastas e classes.
