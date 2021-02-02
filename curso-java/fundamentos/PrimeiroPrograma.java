@@ -3,12 +3,12 @@ package fundamentos;
 public class PrimeiroPrograma {
 
 	/**
-	 * coment·rio JAVADOC
-	 * PARA COLOCAR INFORMA«’ES DO SEU CODIGO
-	 * @author krotonadm
+	 * coment√°rio JAVADOC
+	 * PARA COLOCAR INFORMA√á√ïES DO SEU CODIGO
+	 * @author daiaanebarbosaf
 	 * */
 	public static void main(String[] args) {
-		System.out.println("Ol· Mundo!");
+		System.out.println("Ol√° Mundo!");
 	}
 }
 
