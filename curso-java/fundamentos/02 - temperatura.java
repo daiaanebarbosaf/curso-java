@@ -11,7 +11,7 @@ public class temperatura {
 		
 		double temperatura = (f - a) * multi;
 		
-		System.out.println("Temperatura em Graus Celsius: " + temperatura + "°C");
+		System.out.println("Temperatura em Graus Celsius: " + temperatura + "Â°C");
 		
 	}
 
