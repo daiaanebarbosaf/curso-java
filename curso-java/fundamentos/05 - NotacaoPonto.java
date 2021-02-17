@@ -4,7 +4,7 @@ public class NotacaoPonto {
 
 	public static void main(String[] args) {
 		
-		//A String n„o È uma palavra reservada
+		//A String n√£o √© uma palavra reservada
 		String s = "Bom dia X";
 		System.out.println(s);
 		
