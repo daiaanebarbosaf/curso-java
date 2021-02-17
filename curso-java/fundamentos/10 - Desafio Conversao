@@ -1,0 +1,31 @@
+package fundamentos;
+/*Criar uma classe chamada DESAFIO CONVERSÃO 
+ * com Scanner, vai pegar 3 Strings usando 
+ * NEXTLINE  e essas 3 Strings vão receber 
+ * os ultimos três sálarios de um funcionário. 
+ * Na entrada,  podesse separar com vírgula 
+ * ou com ponto. Por fim calcule a média desses 
+ * 3 salários.*/
+
+import java.util.Scanner;
+
+public class DesafioConversao {
+
+	public static void main(String[] args) {
+		
+		Scanner leitor = new Scanner(System.in);
+		
+		String salario1 = leitor.nextLine();
+		String salario2 = leitor.nextLine();
+		String salario3 = leitor.nextLine();
+		
+		double s1 = Double.parseDouble(salario1);
+		double s2 = Double.parseDouble(salario2);
+		double s3 = Double.parseDouble(salario3);
+		
+		double media = s1 + s2 + s3 / 3;
+		
+		System.out.println(media);
+	}
+
+}
