@@ -18,10 +18,10 @@ public class DesafioConversao {
 	
 		
 		String salario1 = leitor.nextLine();
+		
 		/*para aceitar tanto ponto como virgula,
 		 * o replace está substiuindo a virgula pelo
 		 * ponto.*/
-		
 		salario1 = salario1.replace(',', '.');
 		
 		String salario2 = leitor.nextLine();
