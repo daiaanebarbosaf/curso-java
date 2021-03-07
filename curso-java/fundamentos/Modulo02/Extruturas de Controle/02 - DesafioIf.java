@@ -6,15 +6,15 @@ public class DesafioIf {
 		
 		double nota = 1.3;
 		
-		/*o ponto e virgula após o 9.0, faz com que a
-		 * comparação não seja feita e então ele
+		/*o ponto e virgula apÃ³s o 9.0, faz com que a
+		 * comparaÃ§Ã£o nÃ£o seja feita e entÃ£o ele
 		 * mostra o resultado sem comparar se a
-		 * nota é maior ou igual a 9.*/
+		 * nota Ã© maior ou igual a 9.*/
 		if(nota >= 9.0); {
 			System.out.println("Quadro de Honra!");
-			System.out.println("Você é fera!!!");
+			System.out.println("VocÃª Ã© fera!!!");
 		}/*else {
-			System.out.println("Não foi dessa vez!");
+			System.out.println("NÃ£o foi dessa vez!");
 		}*/
 
 	}
