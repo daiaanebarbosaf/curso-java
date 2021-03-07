@@ -8,15 +8,15 @@ public class IfElse {
 		
 		
 		String valor = JOptionPane.showInputDialog(
-				"Informe o número:");
-		//transformando String em número
+				"Informe o nÃºmero:");
+		//transformando String em nÃºmero
 		int numero = Integer.parseInt(valor);
 		
-		//saber se um número é par ou não
+		//saber se um nÃºmero Ã© par ou nÃ£o
 		if(numero % 2 == 0) {
-			System.out.println("Número par!");
+			System.out.println("NÃºmero par!");
 		}else {
-			System.out.println("Número ímpar");
+			System.out.println("NÃºmero Ã­mpar");
 		}
 
 	}
