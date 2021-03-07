@@ -6,9 +6,9 @@ public class DesafioDiaDeSemana {
 
 	public static void main(String[] args) {
 		
-		/*Digite domigo e a saÌda ser· = 1;
-		 * Digite Segunda e a saÌda ser· = 2;
-		 * Digite TerÁa e a saÌda ser· = 3...*/
+		/*Digite domigo e a sa√≠da ser√° = 1;
+		 * Digite Segunda e a sa√≠da ser√° = 2;
+		 * Digite Ter√ßa e a sa√≠da ser√° = 3...*/
 		
 		Scanner leitor = new Scanner (System.in);
 		
@@ -24,7 +24,7 @@ public class DesafioDiaDeSemana {
 			System.out.println("2");
 		}
 		
-		else if(diaDaSemana.equalsIgnoreCase("terÁa")) {
+		else if(diaDaSemana.equalsIgnoreCase("ter√ßa")) {
 			System.out.println("3");
 		} 
 		
@@ -43,7 +43,7 @@ public class DesafioDiaDeSemana {
 		else if(diaDaSemana.equalsIgnoreCase("sabado")) {
 			System.out.println("7");
 		} else {
-			System.out.println("Dia Inv·lido");
+			System.out.println("Dia Inv√°lido");
 		}
 		
 		leitor.close();
