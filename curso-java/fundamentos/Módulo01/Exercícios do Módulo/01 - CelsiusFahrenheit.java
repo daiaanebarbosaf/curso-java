@@ -1,18 +1,21 @@
-package fundamentos;
+package ex;
 
-public class temperatura {
-	
+import java.util.Scanner;
+
+public class CelsiusFahrenheit {
+
 	public static void main(String[] args) {
+		Scanner leitor = new Scanner(System.in);
 		
-		double f = 8;
+		System.out.println("Digite a temperatura em Celsius: ");
+		double celsius = leitor.nextDouble();
 		
-		final int a = 32;
-		final double multi = 5.0/9.0;
+		double temperatura = (celsius - 32) / 1.8;
 		
-		double temperatura = (f - a) * multi;
-		
-		System.out.println("Temperatura em Graus Celsius: " + temperatura + "°C");
-		
+		System.out.println(" Temperatura em Fahrenheit é: "  + temperatura +  " ° F " );
+
+		leitor.close();
+
 	}
 
 }
