@@ -6,7 +6,7 @@ public class IfElse {
 
 	public static void main(String[] args) {
 		
-		
+		//comando para aparecer uma janela para digitar
 		String valor = JOptionPane.showInputDialog(
 				"Informe o número:");
 		//transformando String em número
