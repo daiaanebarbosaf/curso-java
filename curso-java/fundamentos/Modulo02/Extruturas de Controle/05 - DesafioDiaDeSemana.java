@@ -6,7 +6,7 @@ public class DesafioDiaDeSemana {
 
 	public static void main(String[] args) {
 		
-		/*Digite domigo e a saída será = 1;
+		/*Digite domingo e a saída será = 1;
 		 * Digite Segunda e a saída será = 2;
 		 * Digite Terça e a saída será = 3...*/
 		
@@ -48,5 +48,4 @@ public class DesafioDiaDeSemana {
 		
 		leitor.close();
 	}
-
 }
