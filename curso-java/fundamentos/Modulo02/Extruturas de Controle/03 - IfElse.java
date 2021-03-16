@@ -12,7 +12,9 @@ public class IfElse {
 		//transformando String em número
 		int numero = Integer.parseInt(valor);
 		
-		//saber se um número é par ou não
+		/*saber se um número é par ou não
+		se o resultado for 0 é par, se o resultado
+		for 1 é ímpar*/
 		if(numero % 2 == 0) {
 			System.out.println("Número par!");
 		}else {
