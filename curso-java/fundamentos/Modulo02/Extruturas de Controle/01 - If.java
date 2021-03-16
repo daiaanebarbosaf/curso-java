@@ -21,11 +21,11 @@ public class If {
 		/*se média for menor que 7 e se media for
 		 * maior ou igual a 4.5*/
 		if(media < 7 && media >= 4.5) {
-			System.out.println("Recuperação");
+			System.out.println("Recuperação!");
 		}
 		/*se media for menor e maior ou igual a 0*/
 		if(media < 4.5 && media >= 0) {
-			System.out.println("Reprovado");
+			System.out.println("Reprovado!");
 			
 		}
 		/*se media for maior ou igual a 11*/
