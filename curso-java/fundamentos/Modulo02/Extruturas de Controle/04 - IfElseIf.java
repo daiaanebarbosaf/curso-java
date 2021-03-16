@@ -12,7 +12,7 @@ public class IfElseIf {
 		double nota = leitor.nextDouble();
 		
 		if(nota > 10 || nota < 0) {
-			System.out.println("Nota Inválida");
+			System.out.println("Nota Inválida!");
 		}else if(nota >= 8.1){
 			System.out.println("Conceito A");
 		}else if(nota >= 6.1){
@@ -25,9 +25,7 @@ public class IfElseIf {
 			System.out.println("Conceito E");
 		}
 		
+		System.out.println("Fim!");
 		leitor.close();
-
 	}
-	
-
 }
