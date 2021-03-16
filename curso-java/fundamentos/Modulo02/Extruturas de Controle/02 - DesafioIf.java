@@ -6,7 +6,7 @@ public class DesafioIf {
 		
 		double nota = 1.3;
 		
-		/*o ponto e virgula após o 9.0, faz com que a
+		/*o ponto e virgula após o 9.0 faz com que a
 		 * comparação não seja feita e então ele
 		 * mostra o resultado sem comparar se a
 		 * nota é maior ou igual a 9.*/
