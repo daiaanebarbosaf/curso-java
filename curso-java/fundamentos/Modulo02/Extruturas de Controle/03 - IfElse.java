@@ -17,7 +17,7 @@ public class IfElse {
 		for 1 é ímpar*/
 		if(numero % 2 == 0) {
 			System.out.println("Número par!");
-		}else {
+		} else {
 			System.out.println("Número ímpar");
 		}
 
