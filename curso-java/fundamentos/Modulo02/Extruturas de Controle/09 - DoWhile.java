@@ -28,7 +28,8 @@ public class DoWhile {
 		} while(!texto.equalsIgnoreCase("por favor"));
 		
 		System.out.println("Obrigado e Fim!");
-
+		
+		entrada.close();
 	}
 
 }
