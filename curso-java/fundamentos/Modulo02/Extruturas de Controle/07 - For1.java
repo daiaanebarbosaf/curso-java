@@ -18,6 +18,18 @@ public class For1 {
 			System.out.println("contador = " + contador);
 		}
 		
+		//exemplo de decrementar
+		for(contador = 10; contador >= 0; contador --) {
+			System.out.println("i = " + contador);
+		}
+		
+				/*com o for não é necessário definir as três partes:*/
+		int x = 2;
+		for(; x < 10;) {
+			System.out.println("x = " + x);
+			x++;
+		}
+		
 	}
 
 }
