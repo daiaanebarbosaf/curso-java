@@ -23,12 +23,21 @@ public class If {
 		if(media < 7 && media >= 4.5) {
 			System.out.println("Recuperação!");
 		}
-		/*se media for menor e maior ou igual a 0*/
+		/*se media for menor e maior ou igual a 0
 		if(media < 4.5 && media >= 0) {
 			System.out.println("Reprovado!");
 			
+		}*/
+		
+		boolean criterioDeReprovacaoAtingido =
+		media < 4.5 && media >= 0;
+		System.out.println("Qual o resultado da "
+		+ "Comparação? " + criterioDeReprovacaoAtingido);
+		
+		if(criterioDeReprovacaoAtingido) {
+			System.out.println("Reprovado!");
 		}
-		/*se media for maior ou igual a 11*/
+		//se media for maior ou igual a 11
 		if(media >= 11) {
 			System.out.println("Essa nota não existe!");
 		}

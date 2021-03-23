@@ -24,7 +24,8 @@ public class DesafioDiaDeSemana {
 			System.out.println("2");
 		}
 		
-		else if(diaDaSemana.equalsIgnoreCase("terça")) {
+		else if(diaDaSemana.equalsIgnoreCase("terça") 
+			|| diaDaSemana.equalsIgnoreCase("terca") ){
 			System.out.println("3");
 		} 
 		
@@ -40,7 +41,8 @@ public class DesafioDiaDeSemana {
 			System.out.println("6");
 		} 
 		
-		else if(diaDaSemana.equalsIgnoreCase("sabado")) {
+		else if(diaDaSemana.equalsIgnoreCase("sabado") 
+			|| diaDaSemana.equalsIgnoreCase("sábado") ) {
 			System.out.println("7");
 		} else {
 			System.out.println("Dia Inválido");
